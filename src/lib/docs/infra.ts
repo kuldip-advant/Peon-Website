@@ -109,6 +109,7 @@ export const INFRA_PAGES: DocPage[] = [
   {
     slug: 'git-sources',
     title: 'Git Sources',
+    seoTitle: 'Connect GitHub & GitLab as Git Sources | Peon Docs',
     description:
       'Connect GitHub or GitLab to Peon as Git sources. Configure app fields, set up webhooks for auto-deploy on push, and manage source-level settings.',
     sections: [
@@ -144,6 +145,7 @@ export const INFRA_PAGES: DocPage[] = [
   {
     slug: 'storages',
     title: 'Storages (S3)',
+    seoTitle: 'Connect S3 Storage for Database Backups | Peon Docs',
     description:
       'Connect S3-compatible buckets in Peon for database backup uploads: AWS, R2, B2, MinIO, Hetzner Object Storage, credentials, Test, and wiring to Backups.',
     sections: [
@@ -212,6 +214,7 @@ export const INFRA_PAGES: DocPage[] = [
   {
     slug: 'keys-and-tokens',
     title: 'Keys & Tokens',
+    seoTitle: 'Manage SSH Keys and API Tokens in Peon | Peon Docs',
     description:
       'Manage SSH keys for server access and repo deploy keys in Peon. Create personal API tokens to authenticate REST calls and MCP agent integrations.',
     sections: [
